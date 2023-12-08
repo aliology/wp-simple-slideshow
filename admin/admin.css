@@ -1,0 +1,40 @@
+.wsp-image-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #f4f4f4;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wsp-image-preview {
+    position: relative;
+    margin-right: 20px;
+}
+
+.wsp-remove-image-x {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    cursor: pointer;
+    color: #fc0303;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0 5px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wsp-image-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wsp-image-details input[type="text"] {
+    margin-bottom: 10px;
+    width: 300px;
+}
